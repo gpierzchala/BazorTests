@@ -1,0 +1,41 @@
+﻿@page "/users"
+@using BazorTests.Shared.DTOs
+@inject HttpClient Http
+
+
+<h2>All users : <span id="@nameof(userCount)">@userCount</span></h2>
+
+
+@if (users == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User e-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in users)
+            {
+                <tr>
+                    <td>@user.Email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    public UserDto[] users;
+    public int userCount = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await Http.GetJsonAsync<UserDto[]>("api/users");
+        userCount = users.Count();
+    }
+}
