@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BazorTests.Client", "BazorT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BazorTests.Shared", "BazorTests.Shared\BazorTests.Shared.csproj", "{C8094CD4-A0F4-4C84-8CE9-6EE0E78F4C87}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Components.Testing", "..\BlazorUnitTestingPrototype-master\BlazorUnitTestingPrototype-master\Microsoft.AspNetCore.Components.Testing\Microsoft.AspNetCore.Components.Testing.csproj", "{CD659576-8F56-4B6D-A18F-BBAD21DA408C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComponentTesting", "ComponentTesting\ComponentTesting\ComponentTesting.csproj", "{5028CB28-7E69-4A17-8315-08AB50016AE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentTesting", "ComponentTesting\ComponentTesting\ComponentTesting.csproj", "{5028CB28-7E69-4A17-8315-08AB50016AE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNetCore.Components.Testing", "Microsoft.AspNetCore.Components.Testing\Microsoft.AspNetCore.Components.Testing2\Microsoft.AspNetCore.Components.Testing.csproj", "{C88BA7FD-473B-48A4-8988-17F518A93BA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{C8094CD4-A0F4-4C84-8CE9-6EE0E78F4C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8094CD4-A0F4-4C84-8CE9-6EE0E78F4C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8094CD4-A0F4-4C84-8CE9-6EE0E78F4C87}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD659576-8F56-4B6D-A18F-BBAD21DA408C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD659576-8F56-4B6D-A18F-BBAD21DA408C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD659576-8F56-4B6D-A18F-BBAD21DA408C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD659576-8F56-4B6D-A18F-BBAD21DA408C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5028CB28-7E69-4A17-8315-08AB50016AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5028CB28-7E69-4A17-8315-08AB50016AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5028CB28-7E69-4A17-8315-08AB50016AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5028CB28-7E69-4A17-8315-08AB50016AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88BA7FD-473B-48A4-8988-17F518A93BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88BA7FD-473B-48A4-8988-17F518A93BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88BA7FD-473B-48A4-8988-17F518A93BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88BA7FD-473B-48A4-8988-17F518A93BA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

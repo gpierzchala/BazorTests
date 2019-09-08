@@ -14,9 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\BlazorUnitTestingPrototype-master\BlazorUnitTestingPrototype-master\Microsoft.AspNetCore.Components.Testing\Microsoft.AspNetCore.Components.Testing.csproj" />
     <ProjectReference Include="..\..\BazorTests.Client\BazorTests.Client.csproj" />
     <ProjectReference Include="..\..\BazorTests.Shared\BazorTests.Shared.csproj" />
+    <ProjectReference Include="..\..\Microsoft.AspNetCore.Components.Testing\Microsoft.AspNetCore.Components.Testing2\Microsoft.AspNetCore.Components.Testing.csproj" />
   </ItemGroup>
 
 </Project>
